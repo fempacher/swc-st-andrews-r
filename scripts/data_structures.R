@@ -28,4 +28,11 @@ m3 <- matrix(1:50, ncol=5, nrow = 10)
 m4 <- matrix(1:50, ncol=5, nrow = 10, byrow = TRUE)
 
 # Lists
-l <- list()
+l <- list(1, "a", TRUE, matrix(0, nrow=2,ncol=2), f)
+named_list <- list(a = "SWC", b = 1:4)
+
+
+
+
+
+
