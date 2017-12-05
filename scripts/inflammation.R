@@ -23,3 +23,8 @@ plot(apply(data,2,min))
 # SHow histogram of average patient inflammation
 hist(avg_inflammation_patient, breaks = seq(5,8, by=0.2))
 
+std_dev_inflamation_day = apply(data, 2, sd)
+plot(std_dev_inflamation_day)
+
+hist(avg_inflammation_day)
+
