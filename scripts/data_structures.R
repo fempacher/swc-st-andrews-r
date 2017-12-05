@@ -22,8 +22,10 @@ f <- factor(c("case", "control", "case", "control", "case"),
 
 # Define matrix
 m1 <- matrix(0, ncol=6, nrow=3)
+m2 <- matrix(c(1,2), ncol=4, nrow=3)
 
+m3 <- matrix(1:50, ncol=5, nrow = 10)
+m4 <- matrix(1:50, ncol=5, nrow = 10, byrow = TRUE)
 
-
-
-
+# Lists
+l <- list()

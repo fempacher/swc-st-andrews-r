@@ -27,6 +27,3 @@ std_dev_inflamation_day = apply(data, 2, sd)
 plot(std_dev_inflamation_day)
 
 hist(avg_inflammation_day)
-
-# blablbalb
-
